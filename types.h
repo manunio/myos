@@ -1,5 +1,5 @@
-#ifndef _TYPE_H
-#define _TYPE_H
+#ifndef __TYPE_H
+#define __TYPE_H
 
 typedef char int8_t;
 typedef unsigned char uint8_t;

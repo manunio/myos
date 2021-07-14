@@ -3,7 +3,7 @@
 
 #include "types.h"
 
-class GloabDescriptorTable
+class GlobalDescriptorTable
 {
     public:
         class SegmentDescriptor
@@ -28,8 +28,8 @@ class GloabDescriptorTable
         SegmentDescriptor dataSegmentSelector;
     
     public:
-        GloabDescriptorTable();
-        ~GloabDescriptorTable();
+        GlobalDescriptorTable();
+        ~GlobalDescriptorTable();
 
         uint16_t CodeSegmentSelector();
         uint16_t DataSegmentSelector();
